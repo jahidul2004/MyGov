@@ -1,0 +1,591 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Header section start */
+
+/* Nav section start */
+.header{
+    width: 100%;
+    height: 640px;
+    background-image: url(Images/slider.jpg);
+    margin-bottom: 0;
+}
+
+.header .nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 70px;
+    background:transparent;
+}
+
+.header .nav .logo{
+    width: 130px;
+    height: 55px;
+    padding-left: 40px;
+    cursor: pointer;
+}
+
+.header .nav .accesibility{
+    width: 50px;
+    height: 50px;
+    padding:0 40px 0 20px;
+    cursor: pointer;
+}
+
+.header .nav .btn{
+    display: flex;
+    align-items: center;
+}
+
+.header .nav .btn button{
+    padding: 10px;
+    outline: none;
+    border: none;
+    background-color:#157347;
+    color: white;
+    margin: 10px;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.header .nav .btn .lang{
+    font-size:14px ;
+    padding:7px ;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.header .nav .btn .login{
+    background-color: transparent;
+    border: 1px solid #157347;
+    border-radius: 4px;
+    color: #157347;
+}
+
+.header .nav .btn .login:hover{
+    background-color: #157347;
+    color: white;
+    transition: all 0.3s ease 0s;
+}
+/* Nav section end */
+
+/* header body section start */
+
+.header .body{
+    width: 100%;
+    height: 580px;
+    text-align: center;
+    margin-top: 15%;
+}
+
+.header .body h1{
+    font-size: 40px;
+    padding: 10px;
+    color: #1D4943;
+}
+
+.header .body .input-box input{
+    width: 30%;
+    height: 50px;
+    border: 1px solid #A7AAC2;
+    border-radius: 4px;
+    font-size: 15px;
+    padding:0 10px;
+}
+
+.header .body .input-box button{
+    height:50px ;
+    font-size: 16px;
+    padding:0 10px ;
+    background-color: #157347;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.header .body p{
+    margin-top: 15px;
+    color: #157347;
+    cursor: pointer;
+}
+
+/* Header body end */
+/* Header section End */
+
+
+/* Progress row start */
+
+.progress-row{
+    width: 100%;
+    height: 124px;
+    background-color:#E2F1E8 ;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+
+    margin-top: 0;
+}
+
+.progress-row div{
+    width: 10%;
+    height: 75px;
+    background-color: white;
+    padding: 5px 10px 0px 10px;
+    border-radius: 4px;
+}
+
+.progress-row div p{
+    color: #606268;
+}
+
+/* Progress Row end */
+
+/* services row start */
+.services-row{
+    width: 100%;
+    height:500px;
+    background-color: white;
+}
+
+.services-row .service-type{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.services-row .service-type p{
+    padding: 5px 10px;
+    background-color: transparent;
+    padding: 5px 10px;
+    margin: 25px 10px;
+    border: 1px solid #157347;
+    border-radius: 24px;
+    color: #157347;
+    cursor: pointer;
+}
+
+.services-row .service-type p:hover{
+    background-color: #157347;
+    color: white;
+    transition: all 0.4s ease 0s;
+}
+
+/* Services line 1 start */
+.services-row .service-line{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+}
+
+.services-row .service-line div{
+    width: 20%;
+    height: 160px;
+    border: 1px solid #DEE2E6;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.services-row .service-line div:hover{
+    border: 1px solid #157347;
+    transition: all 0.4s ease 0s;
+    color: #157347;
+}
+
+.services-row .service-line img{
+    width: 50px;
+    height: 50px;
+    padding-top: 20px;
+}
+
+.services-row .service-line div h3{
+    font-size: 16px;
+    padding: 10px 0;
+    color: #6a6b73;
+}
+/* Sewrvice line end */
+/* Services row end */
+
+
+
+
+/* Popular service section start */
+.popular-services{
+    width: 100%;
+    height: 400px;
+    background-color: #F0F8F3
+}
+
+.popular-services .text h1{
+    text-align: center;
+    color: #157347;
+    font-size: 30px;
+    padding: 25px 0;
+}
+
+.popular-services .service-line{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.popular-services .service-line div{
+    width: 25%;
+    height: 100px;
+    background-color: white;
+    margin: 15px 0px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.popular-services .service-line div:hover{
+    transition: all 0.3s ease 0s;
+    
+    color: #157347;
+}
+
+.popular-services .service-line div img{
+    width: 40px;
+    height: 40px;
+    padding: 10px 0px 5px 0px;
+    cursor: pointer;
+}
+
+/* Popular services section end */
+
+
+/* Video Tutorial section satrt */
+
+.tutorial .tutorial-text{
+    text-align: center;
+    color: #157347;
+    font-size: 20px;
+    padding: 30px 0;
+}
+
+.tutorial .video{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.tutorial .video div{
+    width: 30%;
+    height: 320px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.tutorial .video div h3{
+    text-align: left;
+    padding: 15px 15px 5px 15px;
+}
+
+.tutorial .video div p{
+    text-align: left;
+    padding-left: 15px;
+}
+
+.tutorial button{
+    display: flex;
+    margin: 0 auto;
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    color: white;
+    background-color: #157347;
+    cursor: pointer;
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+
+.tutorial button:hover{
+    border: 1px solid #157347;
+    transition: all 0.3s ease 0s;
+    color: #157347;
+    background-color: white;
+}
+
+/* Video tutorial section end */
+
+/* How its work section start */
+
+.howits-work{
+    width: 100%;
+    height: 350px;
+    background-color: #F0F8F3;
+}
+
+.howits-work .work-text h1{
+    text-align: center;
+    font-size:30px ;
+    color: #157347;
+    padding: 20px 0px;
+}
+
+.howits-work .proces{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.howits-work .proces div{
+    width: 30%;
+}
+
+.howits-work .proces div p{
+    color: #157347;
+    padding: 5px 0;
+}
+
+.howits-work .proces div h3{
+    color: #1D4943;
+    padding: 5px 0;
+}
+/* How its work section end */
+
+
+/* FAQ Section start */
+
+.faq{
+    width: 100%;
+    height: 500px;
+}
+
+.faq .faq-text h1{
+    text-align: center;
+    color: #157347;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+.faq .faq-area{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.faq .faq-area .faq-question div{
+    width: 500px;
+    height: 80px;
+    border: 1px solid #A7AAB1;
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.faq .faq-area .faq-question div:hover{
+    border: 1px solid #157347;
+    transition: all 0.3s ease 0s;
+}
+
+.faq .faq-area .faq-question div h2{
+    font-size: 20px;
+    padding: 0 20px;
+}
+
+/* FAQ section end */
+
+/* Mygov apps section start */
+
+.mygov-apps{
+    width: 100%;
+    height: 500px;
+    background-color: #F0F8F3;
+    display: flex;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.mygov-apps .apps-area{
+    width: 90%;
+    height: 350px;
+    background-color: #157347;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 25px;
+}
+
+.mygov-apps .apps-area div .apps-pic{
+    position: relative;
+    padding-bottom: 62px;
+}
+
+.mygov-apps .apps-area div .play-icon{
+    width: 50%;
+    height: 100px;
+    margin: 10px 0 10px 130px;
+
+    
+}
+
+.mygov-apps .apps-area div h1{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+/* Mygov apps section end */
+
+
+/* Recent update section start */
+
+.recent-update{
+    width: 100%;
+    height: 380px;
+    background-color: #F0F8F3;
+}
+
+.recent-update .recent-text h1{
+    font-size:35px ;
+    color: #157347;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.recent-update .update-notice{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.recent-update .update-notice div{
+    width: 80%;
+    height: 250px;
+    border: 1px solid #606268;
+    margin: 0 20px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.recent-update .update-notice div:hover{
+    border: 1px solid #157347;
+    transition: all 0.3s ease 0s;
+    color: #157347;
+
+}
+.recent-update .update-notice div img{
+    width: 100%;
+    height: 80%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.recent-update .update-notice div p{
+    padding: 10px 0;
+    color: #606268;
+}
+
+/* Recent update section end */
+
+
+/* Need Help Section Start */
+
+.need-help{
+    width: 100%;
+    height: 450px;
+}
+
+.need-help .help-text h1{
+    text-align: center;
+    font-size: 35px;
+    color: #157347;
+    padding: 30px 0;
+}
+
+.need-help .help-service{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.need-help .help-service .service{
+    width: 50%;
+}
+
+.need-help .help-service .service div{
+    width: 70%;
+    height: 60px;
+    border: 1px solid #A7AAB1;
+    border-radius: 5px;
+    padding: 0 20px;
+    color: #5f6268;
+    margin: 0 auto;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.need-help .help-service .service div:hover{
+    border: 1px solid #157347;
+    transition: all 0.3s ease 0s;
+    color: #157347;
+}
+
+/* Need help section end */
+
+
+/* Get in touch section start */
+
+.get-in-touch{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: #F0F8F3;
+}
+
+.get-in-touch div{
+    width: 20%;
+}
+
+.get-in-touch div img{
+    width: 180px;
+    height: 60px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.get-in-touch div p{
+    padding: 5px 0;
+    color: #616467;
+    cursor: pointer;
+}
+
+/* Get in touch section ened */
+
+/* Footer section start */
+
+.footer{
+    width: 100%;
+    height: 150px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+}
+
+.footer p{
+    color: #484950;
+}
+
+/* Footer end */
